@@ -1,0 +1,18 @@
+{
+  "name": "frogbot-v3-demo",
+  "version": "1.0.0",
+  "description": "Minimal npm app with intentional vulnerabilities for Frogbot v3 GitHub scanning and autofix PRs.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/index.js --name=Frogbot"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "ejs": "3.1.5",
+    "handlebars": "4.5.2",
+    "lodash": "4.17.15",
+    "minimist": "1.2.5"
+  }
+}
