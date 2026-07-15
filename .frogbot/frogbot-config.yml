@@ -1,9 +1,9 @@
-version: 1
-repositories:
-  - repoName: frogbotV3
-    branches:
-      - main
-    projects:
-      - workingDirs:
-          - "."
-        installCommand: "npm ci"
+# version: 1
+# repositories:
+#   - repoName: frogbotV3
+#     branches:
+#       - main
+#     projects:
+#       - workingDirs:
+#           - "."
+#         installCommand: "npm ci"
