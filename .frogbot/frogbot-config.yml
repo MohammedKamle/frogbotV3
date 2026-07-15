@@ -1,0 +1,10 @@
+params:
+  git:
+    repoName: frogbotV3
+    branches:
+      - main
+  scan:
+    projects:
+      - workingDirs:
+          - "."
+        installCommand: "npm ci"
