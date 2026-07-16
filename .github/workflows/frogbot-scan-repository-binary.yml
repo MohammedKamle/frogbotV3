@@ -22,6 +22,8 @@ jobs:
           JF_GIT_TOKEN: ${{ secrets.JF_GIT_TOKEN }}
           JF_GIT_BASE_BRANCH: main
           JF_GIT_REPO: ${{ github.event.repository.name }}
+          JF_GIT_OWNER: ${{ github.repository_owner }}
+          JF_GIT_PROVIDER: 'github'
         run: |
           curl -fSL \
             -o frogbot \
